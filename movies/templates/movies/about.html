@@ -1,0 +1,13 @@
+{% extends 'movies/_base.html' %}
+
+<html> 
+    <body>
+        {% block content %}
+        <h1>Welcome to the about us page!</h1>
+        
+        {% load static %} <!--Used when you need something from the static folder-->
+        <img style="width:100px;" src="{% static 'movies/me.jpg' %}" alt="About Me Picture">
+
+        {% endblock %}
+    </body>
+</html>
