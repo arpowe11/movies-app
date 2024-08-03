@@ -12,6 +12,6 @@ def about(request) -> HttpResponse:
 
 
 """ NOTE: This is how the template file dirs work"""
-# app/template/app/index.html
-# movies/template/movies/index.html
+# app/templates/app/index.html
+# movies/templates/movies/index.html
 
